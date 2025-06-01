@@ -1,0 +1,193 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+header {
+    background: url('assets/images/background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+.auth-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.auth-buttons a {
+    color: white;
+    background-color: #2e7d32;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.auth-buttons a:hover {
+    background-color: #1b5e20;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 12px;
+    width: 300px;
+    font-size: 16px;
+    border: 2px solid #81c784;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #66bb6a;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #43a047;
+}
+
+.actions .post-btn {
+    margin-top: 20px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.actions .post-btn:hover {
+    background-color: #1b5e20;
+}
+
+.carousel-container {
+    margin: 40px auto;
+    max-width: 900px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.carousel-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 3px solid #c8e6c9;
+}
+
+.search-results {
+    margin-top: 40px;
+}
+
+.item-card {
+    background-color: #ffffff;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+.item-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-card h3 {
+    margin-top: 10px;
+    color: #2e7d32;
+}
+
+.item-card p {
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #a5d6a7;
+    text-align: center;
+    color: #2e7d32;
+}
+
+.item-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #c8e6c9;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.item-form input[type="text"],
+.item-form input[type="email"],
+.item-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #81c784;
+    border-radius: 5px;
+}
+
+.item-form button {
+    background-color: #2e7d32;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item-form button:hover {
+    background-color: #1b5e20;
+}
+
+.item-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+.item-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+.item-card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+.all-items, .search-results {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
